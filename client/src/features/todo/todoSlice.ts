@@ -1,5 +1,5 @@
-import { createSlice, PayloadAction, Dispatch, createAsyncThunk } from '@reduxjs/toolkit';
-import { RootState, AppThunk } from '../../app/store';
+import { createSlice, createAsyncThunk } from '@reduxjs/toolkit';
+import { RootState } from '../../app/store';
 import todoService from '../../utils/TodoService';
 
 interface ITodo {
